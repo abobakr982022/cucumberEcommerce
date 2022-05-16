@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.asserts.SoftAssert;
 import pages.registerationpage;
-
 public class Registeration {
     String email="abobavkrdahdmked9d8cs2d0sd233c5dcsd2@gmail.com";
     String password = "123456";
