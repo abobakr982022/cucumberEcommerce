@@ -4,7 +4,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src\\main\\resources\\Feature",
-        glue = {"stepdefinitions"},
+        glue = {"StepDefination"},
         plugin = {"pretty", "html:target/cucumber"},
         tags = "@regression"
 
