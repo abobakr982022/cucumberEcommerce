@@ -4,15 +4,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.asserts.SoftAssert;
-import pages.registerationpage;
-public class Registeration {
-    String email="abobavkrdahdmked9d8cs2d0sd233c5dcsd2@gmail.com";
+import pages.P01registerationpage;
+public class D01Registeration {
+    String email="abobakrahmed@gmail.com";
     String password = "123456";
-    registerationpage registeration=new registerationpage(Hooks.driver);
+    P01registerationpage registeration=new P01registerationpage(Hooks.driver);
 
     @Given("user navigate to registeration page")
     public void navToRegisteration(){

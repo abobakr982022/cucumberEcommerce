@@ -19,9 +19,11 @@ public class Hooks {
         driver.manage().timeouts().implicitlyWait(8, TimeUnit.SECONDS);
         driver.navigate().to("https://demo.nopcommerce.com/");
         Thread.sleep(3000);
+
     }
     @After
-    public static void close_browser(){
+    public static void close_browser() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
 
     }

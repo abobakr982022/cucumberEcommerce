@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class registerationpage {
+public class P01registerationpage {
     WebDriver driver;
-    public registerationpage(WebDriver driver){
+    public P01registerationpage(WebDriver driver){
         this.driver= driver;
     }
     public WebElement userElement(){
