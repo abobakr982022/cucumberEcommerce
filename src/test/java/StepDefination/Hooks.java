@@ -20,6 +20,7 @@ public class Hooks {
         driver.navigate().to("https://demo.nopcommerce.com/");
         Thread.sleep(3000);
 
+
     }
     @After
     public static void close_browser() throws InterruptedException {
